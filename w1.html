@@ -38,26 +38,39 @@
 	}
 	@media (max-width:1200px){
 		main{
-			display:flex;justify-content:center;
+			display:flex;justify-content:center;width:auto;margin:auto
 		}
 		main>.item{
-			width:45%;display:auto;width:480px;height:350px
-			
-			
-			
+			width:45%;
+			max-width:45%;
+			width:auto;
+			height:100%;
+			display:block;
+			vertical-align:top;
+			text-align:center;
+			align-item:space-around
 			
 		}
 		.item img{
-		height:auto;
-		max-width:100%;
-		width:550px
-		height:auto
-		position:relative
+		width:100%;
+		min-height:auto;
+		display:block;
+		
+		
+		
+		
 		}
 		
 	}
 	@media screen and (max-width:600px){
-		main>.item{width:90%;display:auto;width:450px;height:340px
+		main>.item{width:90%;
+			max-width:90%;
+			width:auto;
+			height:100%;
+			display:block;
+			vertical-align:top;
+			text-align:center;
+			align-item:space-around
 		} 
 		main{
 			justify-content:center;display:flex;
